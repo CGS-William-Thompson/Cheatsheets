@@ -31,7 +31,7 @@
                                     </segue>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cheetsheets" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wcU-Kj-qdW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cheatsheets" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wcU-Kj-qdW">
                                 <rect key="frame" x="116" y="20" width="142" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -42,7 +42,7 @@
                                 <rect key="frame" x="21" y="280" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="Cheetsheet 3"/>
+                                <state key="normal" title="Cheatsheet 3"/>
                                 <connections>
                                     <action selector="sheet3:" destination="28g-cH-ioo" eventType="touchUpInside" id="xUb-Bl-fRO"/>
                                     <segue destination="NW2-hG-twg" kind="popoverPresentation" popoverAnchorView="SkG-ZN-1Ue" id="MhW-y9-8Mz">
@@ -54,7 +54,7 @@
                                 <rect key="frame" x="21" y="461" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="Cheetsheet 5"/>
+                                <state key="normal" title="Cheatsheet 5"/>
                                 <connections>
                                     <action selector="sheet5:" destination="28g-cH-ioo" eventType="touchUpInside" id="P7c-32-AXf"/>
                                     <segue destination="NW2-hG-twg" kind="popoverPresentation" popoverAnchorView="own-kp-0fP" id="fxj-LC-KoX">
@@ -66,7 +66,7 @@
                                 <rect key="frame" x="209" y="280" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="Cheetsheet 4"/>
+                                <state key="normal" title="Cheatsheet 4"/>
                                 <connections>
                                     <action selector="sheet4:" destination="28g-cH-ioo" eventType="touchUpInside" id="k8q-Sq-1yA"/>
                                     <segue destination="NW2-hG-twg" kind="popoverPresentation" popoverAnchorView="Us5-tg-HP2" id="dex-cG-ASn">
@@ -78,7 +78,7 @@
                                 <rect key="frame" x="209" y="461" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="Cheetsheet 6"/>
+                                <state key="normal" title="Cheatsheet 6"/>
                                 <connections>
                                     <action selector="sheet6:" destination="28g-cH-ioo" eventType="touchUpInside" id="D4c-2u-XxC"/>
                                     <segue destination="NW2-hG-twg" kind="popoverPresentation" popoverAnchorView="mTC-lE-wQl" id="ibH-7m-QpQ">
@@ -90,7 +90,7 @@
                                 <rect key="frame" x="209" y="98" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="Cheetsheet 2"/>
+                                <state key="normal" title="Cheatsheet 2"/>
                                 <connections>
                                     <action selector="sheet2:" destination="28g-cH-ioo" eventType="touchUpInside" id="WHZ-QX-pO1"/>
                                     <segue destination="NW2-hG-twg" kind="popoverPresentation" popoverAnchorView="AS3-0K-zaD" id="2ai-EK-i9j">
@@ -102,7 +102,7 @@
                                 <rect key="frame" x="21" y="98" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="Cheetsheet 1"/>
+                                <state key="normal" title="Cheatsheet 1"/>
                                 <connections>
                                     <action selector="sheet1:" destination="28g-cH-ioo" eventType="touchUpInside" id="9jF-ct-CFd"/>
                                     <segue destination="NW2-hG-twg" kind="popoverPresentation" popoverAnchorView="9oa-vf-S0j" id="pEO-xk-21P">
@@ -164,7 +164,7 @@
                                 </state>
                                 <connections>
                                     <action selector="folder1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qc0-Ql-ji5"/>
-                                    <segue destination="28g-cH-ioo" kind="popoverPresentation" identifier="Cheatsheets" popoverAnchorView="6BQ-4Y-PIb" id="woN-3Y-lUN">
+                                    <segue destination="28g-cH-ioo" kind="popoverPresentation" identifier="cheatsheets" popoverAnchorView="6BQ-4Y-PIb" id="8dZ-Zb-AcP">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -580,6 +580,7 @@
                         <outlet property="home" destination="PzZ-ar-nz5" id="BDa-7U-0zc"/>
                         <outlet property="line" destination="D7R-8e-qq0" id="Emk-tf-VVp"/>
                         <outlet property="nameLabel" destination="2sC-Mn-aMJ" id="4g7-ag-XFX"/>
+                        <outlet property="save" destination="gEu-AU-RhX" id="Jrb-zt-5cu"/>
                         <outlet property="screenShot" destination="lmy-Dg-Vgp" id="H84-q3-f45"/>
                         <outlet property="textView1" destination="Nh0-00-m3g" id="lQC-2v-pJC"/>
                         <outlet property="textView2" destination="2Ap-FO-Gt3" id="0p3-Fq-7Pl"/>
@@ -695,8 +696,8 @@
     <inferredMetricsTieBreakers>
         <segue reference="2ai-EK-i9j"/>
         <segue reference="o1l-5V-MF2"/>
-        <segue reference="BwK-5Y-Vvt"/>
-        <segue reference="mfA-vb-N9S"/>
-        <segue reference="woN-3Y-lUN"/>
+        <segue reference="IY1-fd-tGg"/>
+        <segue reference="gR6-Gq-Wyo"/>
+        <segue reference="oev-dj-Vam"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -15,6 +15,8 @@ class FinalProduct: UIViewController {
     var textV4: String = ""
     var selectedColumn: Int?
     var enteredText: String = ""
+    var text1: UIColor?
+    var background1: UIColor?
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var back: UIButton!
@@ -25,13 +27,14 @@ class FinalProduct: UIViewController {
     @IBOutlet weak var textView2: UITextView!
     @IBOutlet weak var textView3: UITextView!
     @IBOutlet weak var textView4: UITextView!
+    @IBOutlet weak var save: UIButton!
     
     
     
     @IBAction func home(_ sender: Any) {
         let alert = UIAlertController(title: "Warning", message: "Are you sure you want leave without saving?", preferredStyle: UIAlertControllerStyle.alert)
-        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { [weak alert] (_) in
-            self.performSegue(withIdentifier: "home", sender: self)
+        alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { [weak alert] (_) in
+            self.performSegue(withIdentifier: "cheatsheets", sender: self)
         }))
         alert.addAction(UIAlertAction(title: "No", style: UIAlertActionStyle.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
@@ -52,6 +55,7 @@ class FinalProduct: UIViewController {
         screenShot.isHidden = true
         back.isHidden = true
         home.isHidden = true
+        save.isHidden = true
         //Create the UIImage
         let renderer = UIGraphicsImageRenderer(size: view.frame.size)
         let image = renderer.image(actions: { context in
@@ -63,6 +67,7 @@ class FinalProduct: UIViewController {
         screenShot.isHidden = false
         back.isHidden = false
         home.isHidden = false
+        save.isHidden = false
     }
     var textWidth = CGFloat()
     var sHeight = CGFloat()
@@ -80,31 +85,22 @@ class FinalProduct: UIViewController {
         sHeight = screenHeight
         textWidth = screenWidth - 30
         
-        let contentSize = textView1.sizeThatFits(textView1.bounds.size)
-        var box = textView1.frame
-        box.size.height = contentSize.height
-        textView1.frame = box
         
-        let contentSize2 = textView2.sizeThatFits(textView2.bounds.size)
-        var box2 = textView2.frame
-        box2.size.height = contentSize2.height
-        textView2.frame = box2
-        
-        let contentSize3 = textView3.sizeThatFits(textView3.bounds.size)
-        var box3 = textView3.frame
-        box3.size.height = contentSize3.height
-        textView3.frame = box3
-        
-        let contentSize4 = textView4.sizeThatFits(textView4.bounds.size)
-        var box4 = textView4.frame
-        box4.size.height = contentSize4.height
-        textView4.frame = box4
-        
-        textView1.layer.borderWidth = 1.0
-        textView2.layer.borderWidth = 1.0
-        textView3.layer.borderWidth = 1.0
-        textView4.layer.borderWidth = 1.0
         nameLabel.text = enteredText
+        textView1.backgroundColor = background1
+        textView1.textColor = text1
+        textView1.layer.borderWidth = 1.0
+        textView2.backgroundColor = background1
+        textView2.textColor = text1
+        textView2.layer.borderWidth = 1.0
+        textView3.backgroundColor = background1
+        textView3.textColor = text1
+        textView3.layer.borderWidth = 1.0
+        textView4.backgroundColor = background1
+        textView4.textColor = text1
+        textView4.layer.borderWidth = 1.0
+        save.layer.borderWidth = 1.0
+        screenShot.layer.borderWidth = 1.0
         
         if selectedColumn == 1 {
             line.isHidden = true

@@ -181,9 +181,6 @@ class Cheatsheet: UIViewController {
             print("Error")
         }
         
-        //NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardDidShow(_:)), name: .UIKeyboardDidShow , object: nil)
-        //NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardDidHide(_:)), name: .UIKeyboardDidHide , object: nil)
-        
         nameLabel.text = enteredText
         textView1.backgroundColor = background1
         textView1.textColor = text1
@@ -215,6 +212,7 @@ class Cheatsheet: UIViewController {
             data.textV2 = textV2
             data.textV3 = textV3
             data.textV4 = textV4
+            
         }
         
         if let data = segue.destination as? FinalProduct {
@@ -224,6 +222,8 @@ class Cheatsheet: UIViewController {
             data.textV4 = textV4
             data.selectedColumn = selectedColumn
             data.enteredText = enteredText
+            data.text1 = text1
+            data.background1 = background1
         }
         
     }

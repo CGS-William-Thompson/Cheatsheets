@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D1458391FA06896002E08C7 /* SavedCheetsheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1458381FA06896002E08C7 /* SavedCheetsheets.swift */; };
+		3D1458391FA06896002E08C7 /* SavedCheatsheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1458381FA06896002E08C7 /* SavedCheatsheets.swift */; };
 		3D1BD3761F9DB28700609102 /* FinalProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BD3751F9DB28700609102 /* FinalProduct.swift */; };
 		3D5926781F9F3C64004BD1CD /* Folder1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5926771F9F3C64004BD1CD /* Folder1.swift */; };
 		3D7CD1771F5F900C007ECAB2 /* Cheatsheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CD1761F5F900C007ECAB2 /* Cheatsheet.swift */; };
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D1458381FA06896002E08C7 /* SavedCheetsheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCheetsheets.swift; sourceTree = "<group>"; };
+		3D1458381FA06896002E08C7 /* SavedCheatsheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCheatsheets.swift; sourceTree = "<group>"; };
 		3D1BD3751F9DB28700609102 /* FinalProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProduct.swift; sourceTree = "<group>"; };
 		3D5926771F9F3C64004BD1CD /* Folder1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder1.swift; sourceTree = "<group>"; };
 		3D7CD1761F5F900C007ECAB2 /* Cheatsheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cheatsheet.swift; sourceTree = "<group>"; tabWidth = 4; };
@@ -70,7 +70,7 @@
 				3DFCBD9E1F5CD36D0054519A /* CreateYourOwn.swift */,
 				3D7CD1761F5F900C007ECAB2 /* Cheatsheet.swift */,
 				3D5926771F9F3C64004BD1CD /* Folder1.swift */,
-				3D1458381FA06896002E08C7 /* SavedCheetsheets.swift */,
+				3D1458381FA06896002E08C7 /* SavedCheatsheets.swift */,
 				3D1BD3751F9DB28700609102 /* FinalProduct.swift */,
 				3DDF04731F3947C3004A1127 /* Assets.xcassets */,
 				3DDF04751F3947C3004A1127 /* LaunchScreen.storyboard */,
@@ -157,7 +157,7 @@
 				3DFCBD9F1F5CD36D0054519A /* CreateYourOwn.swift in Sources */,
 				3DDF046D1F3947C3004A1127 /* AppDelegate.swift in Sources */,
 				3D1BD3761F9DB28700609102 /* FinalProduct.swift in Sources */,
-				3D1458391FA06896002E08C7 /* SavedCheetsheets.swift in Sources */,
+				3D1458391FA06896002E08C7 /* SavedCheatsheets.swift in Sources */,
 				3D7CD1771F5F900C007ECAB2 /* Cheatsheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

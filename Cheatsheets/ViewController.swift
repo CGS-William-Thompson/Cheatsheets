@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     @IBAction func folder1(_ sender: Any) {
         let alert = UIAlertController(title: "Warning", message: "This does not currently work as intended", preferredStyle: UIAlertControllerStyle.alert)
         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { [weak alert] (_) in
-            self.performSegue(withIdentifier: "home", sender: self)
+            self.performSegue(withIdentifier: "cheatsheets", sender: self)
         }))
         self.present(alert, animated: true, completion: nil)
     }
