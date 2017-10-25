@@ -10,7 +10,6 @@ import UIKit
 
 class Cheatsheet: UIViewController {
     
-    
     var name: String = ""
     var enteredText: String = ""
     var text1: UIColor?
