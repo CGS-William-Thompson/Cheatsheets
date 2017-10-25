@@ -16,47 +16,10 @@ class Cheatsheet: UIViewController {
     var text1: UIColor?
     var background1: UIColor?
     var selectedColumn: Int?
-    var num = 0
     
     @IBOutlet var textView: [UITextView]!
     
     var sHeight1 = CGFloat()
-    /*
-     func keyboardDidShow(_ notification: NSNotification) {
-     print("Keyboard will show!")
-     let screenSize1 = UIScreen.main.bounds
-     //let screenWidth1 = screenSize1.width
-     let screenHeight1 = screenSize1.height
-     sHeight1 = screenHeight1
-     print(sHeight1)
-     let keyboardSize:CGSize = (notification.userInfo![UIKeyboardFrameBeginUserInfoKey] as! NSValue).cgRectValue.size
-     print("Keyboard size: \(keyboardSize)")
-     
-     let height = min(keyboardSize.height, keyboardSize.width)
-     let width = max(keyboardSize.height, keyboardSize.width)
-     
-     let totalHeight = sHeight - height
-     let totalHeight1 = sHeight1 - height
-     print("Total Height1: \(totalHeight1)")
-     
-     print("Width: \(width)")
-     print(sHeight)
-     print("Total Height: \(totalHeight)")
-     print("sHeight: \(sHeight)")
-     
-     textView1.frame = CGRect(x: 16, y: 46, width: textWidth, height: totalHeight1 - 50)
-     textView2.frame = CGRect(x: 16, y: 46, width: textWidth, height: totalHeight1 - 50)
-     textView3.frame = CGRect(x: 16, y: 46, width: textWidth, height: totalHeight1 - 50)
-     textView4.frame = CGRect(x: 16, y: 46, width: textWidth, height: totalHeight1 - 50)
-     
-     }
-     
-     func keyboardDidHide(_ notification: NSNotification) {
-     
-     print("Keyboard will hide!")
-     }
-     */
-    
     
     @IBOutlet weak var done1: UIButton!
     
@@ -65,16 +28,10 @@ class Cheatsheet: UIViewController {
     var textV3 = ""
     var textV4 = ""
     
-    @IBAction func surd(_ sender: Any) {
-        if num == 1 {
-          //  textView1.text += "a"
-            //textView1.text += "NewText"
-        }
-    }
     
     @IBAction func done(_ sender: UIButton) {
         textV1 = textView1.text
-        textV2 = textView2.texts
+        textV2 = textView2.text
         textV3 = textView3.text
         textV4 = textView4.text
         
@@ -114,7 +71,6 @@ class Cheatsheet: UIViewController {
     @IBOutlet weak var back: UIButton!
     
     @IBAction func expand(_ sender: UITextView) {
-        num = 1
         nameLabel.isHidden = true
         back.isHidden = true
         textView1.becomeFirstResponder()
@@ -271,7 +227,7 @@ class Cheatsheet: UIViewController {
         }
         
     }
-
+    
     override var prefersStatusBarHidden: Bool {
         return true
     }

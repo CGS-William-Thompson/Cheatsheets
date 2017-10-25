@@ -103,7 +103,7 @@ class Folder1: UIViewController {
         let defaults1 = UserDefaults.standard
         let myarray = defaults1.stringArray(forKey: "SavedStringArray") ?? [String]()
         thing1 = myarray
-    
+        
         if var x = UserDefaults.standard.object(forKey: "array") as? [String] {
             array = x
         }
