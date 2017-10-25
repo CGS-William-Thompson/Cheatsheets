@@ -208,7 +208,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Cheatsheet" borderStyle="bezel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yYQ-0I-kUx">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yYQ-0I-kUx">
                                 <rect key="frame" x="117" y="28" width="227" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES"/>
                                 <color key="backgroundColor" red="0.89942517165605185" green="0.89942517165605185" blue="0.89942517165605185" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -375,10 +375,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
-                                <string key="text">Pedicabo ego vos et irrumabo,
-Aureli pathice et cinaede Furi,
-qui me ex versiculis meis putastis,
-quod sunt molliculi, parum pudicum.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <connections>
@@ -390,9 +386,6 @@ quod sunt molliculi, parum pudicum.</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
-                                <string key="text">Nam castum esse decet pium poetam
-ipsum, versiculos nihil necessest;
-</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <connections>
@@ -404,11 +397,6 @@ ipsum, versiculos nihil necessest;
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
-                                <string key="text">qui tum denique habent salem ac leporem,
-si sunt molliculi ac parum pudici
-et quod pruriat incitare possunt,
-non dico pueris, sed his pilosis
-</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <connections>
@@ -420,10 +408,6 @@ non dico pueris, sed his pilosis
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
-                                <string key="text">qui duros nequeunt movere lumbos.
-Vos, quod milia multa basiorum
-legistis, male me marem putatis?
-Pedicabo ego vos et irrumabo.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <connections>
@@ -727,11 +711,10 @@ Pedicabo ego vos et irrumabo.</string>
         <image name="cog" width="1715" height="1716"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="FyU-gR-SAB"/>
         <segue reference="2ai-EK-i9j"/>
-        <segue reference="o1l-5V-MF2"/>
+        <segue reference="7A6-la-dKB"/>
         <segue reference="IY1-fd-tGg"/>
-        <segue reference="gub-8o-IWM"/>
+        <segue reference="d9g-RD-k3h"/>
         <segue reference="faA-PU-q06"/>
     </inferredMetricsTieBreakers>
 </document>

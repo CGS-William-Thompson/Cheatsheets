@@ -9,7 +9,7 @@
 import UIKit
 
 class CreateYourOwn: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate   {
-    var enteredText: String = "Cheatsheet"
+    var enteredText: String = ""
     
     @IBOutlet weak var nameField: UITextField!
     
