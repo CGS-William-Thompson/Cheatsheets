@@ -159,7 +159,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                <state key="normal" title="WIP Cheetsheets">
+                                <state key="normal" title="WIP Cheatsheets">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -696,8 +696,8 @@
     <inferredMetricsTieBreakers>
         <segue reference="2ai-EK-i9j"/>
         <segue reference="o1l-5V-MF2"/>
-        <segue reference="IY1-fd-tGg"/>
+        <segue reference="BwK-5Y-Vvt"/>
         <segue reference="gR6-Gq-Wyo"/>
-        <segue reference="oev-dj-Vam"/>
+        <segue reference="8dZ-Zb-AcP"/>
     </inferredMetricsTieBreakers>
 </document>
