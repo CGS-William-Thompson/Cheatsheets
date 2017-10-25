@@ -33,10 +33,8 @@ class FinalProduct: UIViewController {
         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { [weak alert] (_) in
             self.performSegue(withIdentifier: "home", sender: self)
         }))
-        
         alert.addAction(UIAlertAction(title: "No", style: UIAlertActionStyle.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
-        
     }
     
     

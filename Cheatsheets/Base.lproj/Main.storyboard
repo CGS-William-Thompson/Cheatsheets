@@ -139,23 +139,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6BQ-4Y-PIb">
-                                <rect key="frame" x="21" y="260" width="333" height="175"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                <state key="normal" title="Cheetsheets">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="folder1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qc0-Ql-ji5"/>
-                                    <segue destination="28g-cH-ioo" kind="popoverPresentation" popoverAnchorView="6BQ-4Y-PIb" id="woN-3Y-lUN">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="blY-6H-eFL">
-                                <rect key="frame" x="21" y="28" width="333" height="175"/>
+                                <rect key="frame" x="21" y="28" width="333" height="293"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <color key="backgroundColor" red="0.4470778272067279" green="0.89942517165605185" blue="0.28811734366754627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="43"/>
@@ -169,21 +154,20 @@
                                     </segue>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPO-x3-BJu">
-                                <rect key="frame" x="26" y="503" width="144" height="144"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6BQ-4Y-PIb">
+                                <rect key="frame" x="21" y="342" width="333" height="293"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.1060993522" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                <state key="normal" image="about"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sqc-Il-5Jo">
-                                <rect key="frame" x="205" y="503" width="144" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <color key="backgroundColor" red="1" green="0.40000000600000002" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
-                                <state key="normal" image="cog">
+                                <state key="normal" title="WIP Cheetsheets">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="folder1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qc0-Ql-ji5"/>
+                                    <segue destination="28g-cH-ioo" kind="popoverPresentation" identifier="Cheatsheets" popoverAnchorView="6BQ-4Y-PIb" id="woN-3Y-lUN">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.98690542997802688" green="0.99017907248352022" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -194,7 +178,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-76" y="591"/>
+            <point key="canvasLocation" x="-76" y="590.55472263868069"/>
         </scene>
         <!--Create Your Own-->
         <scene sceneID="F4K-v2-W2U">
@@ -706,15 +690,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="about" width="150" height="150"/>
         <image name="back" width="100" height="100"/>
-        <image name="cog" width="1715" height="1716"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="2ai-EK-i9j"/>
-        <segue reference="7A6-la-dKB"/>
-        <segue reference="IY1-fd-tGg"/>
-        <segue reference="d9g-RD-k3h"/>
-        <segue reference="faA-PU-q06"/>
+        <segue reference="o1l-5V-MF2"/>
+        <segue reference="BwK-5Y-Vvt"/>
+        <segue reference="mfA-vb-N9S"/>
+        <segue reference="woN-3Y-lUN"/>
     </inferredMetricsTieBreakers>
 </document>
