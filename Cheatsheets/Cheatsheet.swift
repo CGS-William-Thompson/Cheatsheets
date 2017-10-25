@@ -67,14 +67,14 @@ class Cheatsheet: UIViewController {
     
     @IBAction func surd(_ sender: Any) {
         if num == 1 {
-            textView1.text += "a"
-            textView1.text += "NewText"
+          //  textView1.text += "a"
+            //textView1.text += "NewText"
         }
     }
     
     @IBAction func done(_ sender: UIButton) {
         textV1 = textView1.text
-        textV2 = textView2.text
+        textV2 = textView2.texts
         textV3 = textView3.text
         textV4 = textView4.text
         
