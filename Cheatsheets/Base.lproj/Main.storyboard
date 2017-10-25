@@ -140,7 +140,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="blY-6H-eFL">
+<<<<<<< HEAD
                                 <rect key="frame" x="21" y="28" width="333" height="293"/>
+=======
+                                <rect key="frame" x="21" y="28" width="333" height="290"/>
+>>>>>>> master
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <color key="backgroundColor" red="0.4470778272067279" green="0.89942517165605185" blue="0.28811734366754627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="43"/>
@@ -155,16 +159,28 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6BQ-4Y-PIb">
+<<<<<<< HEAD
                                 <rect key="frame" x="21" y="342" width="333" height="293"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="43"/>
                                 <state key="normal" title="WIP Cheetsheets">
+=======
+                                <rect key="frame" x="21" y="357" width="333" height="290"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
+                                <state key="normal" title="WIP Cheatsheets">
+>>>>>>> master
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="folder1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qc0-Ql-ji5"/>
+<<<<<<< HEAD
                                     <segue destination="28g-cH-ioo" kind="popoverPresentation" identifier="cheatsheets" popoverAnchorView="6BQ-4Y-PIb" id="8dZ-Zb-AcP">
+=======
+                                    <segue destination="28g-cH-ioo" kind="popoverPresentation" popoverAnchorView="6BQ-4Y-PIb" id="woN-3Y-lUN">
+>>>>>>> master
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -696,8 +712,14 @@
     <inferredMetricsTieBreakers>
         <segue reference="2ai-EK-i9j"/>
         <segue reference="o1l-5V-MF2"/>
+<<<<<<< HEAD
         <segue reference="IY1-fd-tGg"/>
         <segue reference="gR6-Gq-Wyo"/>
         <segue reference="oev-dj-Vam"/>
+=======
+        <segue reference="BwK-5Y-Vvt"/>
+        <segue reference="mfA-vb-N9S"/>
+        <segue reference="woN-3Y-lUN"/>
+>>>>>>> master
     </inferredMetricsTieBreakers>
 </document>
